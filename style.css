@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body, html {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    width: 1200px;
+
+}
+
+.conteiner {
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu {
+
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar ul {
+    display: flex;
+    gap: 31px;
+    list-style: none;
+}
+
+.navBar h1 {
+
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #585E65;
+}
+
+.links a:hover {
+    color: #000000;
+}
+
+.conteinerMenu2 a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4C6EF5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 11px 35px;
+}
+
+.conteinerMenu2 a:hover {
+    background-color: #0033ff;
+}
+
+
+main {
+    width: 100%;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.caixaItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    width: 24%;
+}
+
+.caixaItemInfo {
+    text-align: center;
+}
+
+.caixaItemInfo img {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.caixaItemButton {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.caixaItemButton p {
+    font-weight: 600;
+}
+
+.caixaItemButton a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #4C6EF5;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.caixaItemButton a:hover {
+    background-color: #0033ff;
+}
